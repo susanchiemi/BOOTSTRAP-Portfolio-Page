@@ -1,0 +1,185 @@
+body {
+    font-family: "Open Sans", san-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background-image: url("../images/basic-portfolio-bg-transparent.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+hr {
+    margin: 0px;
+    padding: 5px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #12b4bf;
+}
+
+li {
+list-style: none;
+display: inline-block;
+}
+
+.btn-default {
+    border-radius: 0;
+    border: none;
+    background-color: #666;
+    color: #FFF;
+}
+
+.btn-default:hover {
+    background-color: #12b4bf;
+    color: #FFF;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    padding: 0 0 15px 0;
+    margin: 0;
+}
+
+.navbar-default {
+    background-color: #FFF;
+    border-color: #FFF;
+}
+
+
+.custom-links {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.coding-title {
+    margin-top: 85px;
+}
+
+footer {
+    background-color: #e2e2e2;
+    text-align: center;
+   padding-top: 50px;
+   padding-bottom: 125px;
+}
+
+.social-icon {
+    padding-right: 15px;
+}
+
+.linkedin {
+   margin-left: 20px;
+}
+
+
+/*******************
+***** 3. Mainmenu CSS
+********************/ /* nav is from my own website to match */
+
+.mainmenu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.mainmenu ul li {
+    display: inline-block;
+    position: relative;
+}
+.mainmenu ul li:after {
+    background: #000000;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    visibility: hidden;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: width .3s ease-in-out, visibility .3s ease-in-out, opacity .3s ease-in-out;
+    transition: width .3s ease-in-out, visibility .3s ease-in-out, opacity .3s ease-in-out;
+}
+.mainmenu ul li:hover:after {
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.mainmenu li a {
+    color: #666666;
+    display: block;
+    padding: 45px 15px;
+    text-decoration: none;
+}
+.mainmenu li {
+    position: relative;
+}
+.mainmenu ul li > ul {
+    background: #2c2f32 none repeat scroll 0 0;
+    left: 0;
+    position: absolute;
+    text-align: left;
+    top: 140%;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 220px;
+    visibility: hidden;
+}
+.mainmenu ul li:hover > ul {
+    visibility: visible;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    top: 100%;
+}
+.mainmenu ul li ul ul {
+    left: 220px;
+}
+.mainmenu ul li ul li:hover ul {
+    top: 0px;
+}
+.mainmenu ul li > ul li {
+    border-bottom: 1px solid #3b3e42;
+    display: block;
+}
+.mainmenu ul li > ul li:after {
+    display: none;
+}
+.mainmenu ul li > ul li a {
+    color: #818181;
+    padding: 10px 0 12px 20px;
+    -webkit-transition: color 0.3s ease 0s, padding 0.3s ease 0s;
+    transition: color 0.3s ease 0s, padding 0.3s ease 0s;
+}
+.mainmenu ul li > ul li:hover > a {
+    color: #fff;
+    padding-left: 27px;
+}
+.sw-title {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-style: normal;
+    color: #12b4bf;
+    font-size: 36px;
+    text-transform: uppercase;
+}
