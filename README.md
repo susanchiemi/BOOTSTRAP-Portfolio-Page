@@ -8,11 +8,10 @@
 * [Bootstrap](https://getbootstrap.com/) - css framework
 * [GitHub Pages](https://help.github.com/articles/what-is-github-pages/) - code editor
 
-## Future Development
-* Contact form needs additional css to give a modern look.
+## Future Development & Todos
+* Check all links
+* Add photos and coding projects
 
 ## Acknowledgments
 * UCF Coding Bootcamp Homework assignment
 
-
-https://susanchiemi.github.io/Bootstrap-Portfolio/
