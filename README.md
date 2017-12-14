@@ -9,9 +9,10 @@
 * [GitHub Pages](https://help.github.com/articles/what-is-github-pages/) - code editor
 
 ## Future Development & Todos
+* View More will link to projects in Github
+* Image will be a popup lightbox
 * Check all links
-* Add photos and coding projects
 
 ## Acknowledgments
-* UCF Coding Bootcamp Homework assignment
+* UCF Coding Bootcamp homework assignment
 
